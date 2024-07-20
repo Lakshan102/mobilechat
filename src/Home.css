@@ -1,0 +1,9 @@
+.home-container{
+    z-index: -1;
+    padding-top: 40px;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}

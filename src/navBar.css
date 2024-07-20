@@ -1,0 +1,39 @@
+.navBar{
+    background: rgba(76, 154, 206, 0.849);
+    font-size: 18px;
+    display: flex;
+    top:0;
+    padding:10px;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    /* border-radius: 20px; */
+   /*  margin: 10px; */
+}
+.navBar h1{
+    color: white;
+    text-decoration: none;
+    margin:10px;
+}
+.navBar img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: double 2px white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navBar {
+        background: blue;
+        font-size: 15px;
+    }
+    .navBar img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
